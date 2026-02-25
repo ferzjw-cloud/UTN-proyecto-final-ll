@@ -5,12 +5,14 @@ const Landing = () => {
 
   return (
     <section className="landing-container">
-      <div className="landing-card">
-        <h1>Bienvenido a Chat UTN</h1>
-        <p>Una aplicación simple para conectarte y chatear con tus contactos favoritos.</p>
-        <div className="landing-buttons">
-          <button onClick={() => navigate("/registro")}>Registrate</button>
-          <button onClick={() => navigate("/login")}>Inicia Sesión</button>
+      <div className="landing-overlay">
+        <div className="landing-card">
+          <h1>Bienvenido a Chat UTN</h1>
+          <p>Conectate GRATIS con tus contactos y chatea de forma simple y segura.</p>
+          <div className="landing-buttons">
+            <button onClick={() => navigate("/registro")}>Registrate</button>
+            <button onClick={() => navigate("/login")}>Inicia Sesión</button>
+          </div>
         </div>
       </div>
     </section>

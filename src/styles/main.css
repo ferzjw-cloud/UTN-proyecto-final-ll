@@ -280,12 +280,31 @@ section {
    LOGIN / REGISTRO
 ========================= */
 
+/* Ajuste del contenedor principal para centrar el contenido */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Estilo del título centrado */
 section .title-login {
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 20px; /* Espacio opcional entre el título y el cuadro */
   font-size: 26px;
   font-weight: 600;
   color: #f9fafb;
+  width: 100%; /* Asegura que el texto tenga espacio para alinearse al centro */
+}
+
+/* Aseguramos que el formulario también se alinee al centro si no tiene un ancho fijo */
+section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Card */
@@ -386,6 +405,9 @@ section form button:hover {
   position: relative;
   color: #f9fafb;
 }
+
+
+
 
 .landing-overlay {
   width: 100%;
