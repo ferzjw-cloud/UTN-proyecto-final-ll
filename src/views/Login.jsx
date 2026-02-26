@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { ChatContext } from "../context/ChatContext";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -25,9 +25,23 @@ const Login = () => {
 
   return (
     <section>
+
+      {/* BOTÓN HOME */}
+      <Link to="/" className="home-top-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+          fill="currentColor"
+          viewBox="0 0 16 16"
+        >
+          <path d="M8 .5l6 6V15a1 1 0 0 1-1 1h-4v-4H7v4H3a1 1 0 0 1-1-1V6.5l6-6z"/>
+        </svg>
+        Inicio
+      </Link>
+
       <h2 className="title-login">Bienvenido, inicia sesión</h2>
 
-      
       <form onSubmit={handleSubmit}>
         <input
           type="email"

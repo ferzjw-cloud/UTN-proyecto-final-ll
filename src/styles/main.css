@@ -397,7 +397,7 @@ section:not(.chat) form button:active {
 .chat-highlight {
   color: #2563eb;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 70px;
   font-style: italic;
 
 }
@@ -586,4 +586,32 @@ section:not(.chat) form button:active {
   section:not(.chat) form {
     max-width: 100%;
   }
+}
+
+/* =========================
+   BOTÓN HOME SUPERIOR
+========================= */
+
+.home-top-button {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.20s ease;
+  z-index: 1000;
+}
+
+.home-top-button:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(2, 144, 245, 0.700);
 }
