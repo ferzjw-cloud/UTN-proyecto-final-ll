@@ -39,7 +39,8 @@ Permite registrarse, iniciar sesión y enviar mensajes a diferentes contactos.
 
 1. Documentación de DeepWiki:
     https://deepwiki.com/ferzjw-cloud/UTN-proyecto-final-ll
-
+    [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ferzjw-cloud/UTN-proyecto-final-ll)
+    <a href="https://deepwiki.com/ferzjw-cloud/UTN-proyecto-final-ll"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 
 
 
