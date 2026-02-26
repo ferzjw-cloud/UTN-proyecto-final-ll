@@ -1,6 +1,6 @@
 
 
-# Chat UTN - Proyecto Final
+# UTNChat - Proyecto Final
 
 Este es un proyecto de chat online sencillo hecho como trabajo final para la UTN.  
 Permite registrarse, iniciar sesión y enviar mensajes a diferentes contactos.  
