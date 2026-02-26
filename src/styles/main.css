@@ -46,6 +46,14 @@ aside h1 {
   color: #f9fafb;
 }
 
+.chat2-highlight {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: italic;
+
+}
+
 /* Search */
 
 .search {
@@ -383,6 +391,14 @@ section:not(.chat) form button:active {
   background-position: center;
   position: relative;
   color: #f9fafb;
+}
+
+.chat-highlight {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 75px;
+  font-style: italic;
+
 }
 
 .landing-overlay {

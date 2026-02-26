@@ -22,7 +22,8 @@ const Aside = () => {
 
   return (
     <aside>
-      <h1>UTNchat</h1>
+      <h1>UTN<span className="chat2-highlight">chat</span></h1>
+      
       <input className="search" type="search" placeholder="Buscar contactos..." onChange={handleChange} />
       {
         filteredUsers.length === 0 && <p className="not-found-text">No se encontraron contactos</p>
