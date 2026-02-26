@@ -150,10 +150,12 @@ li small {
   font-weight: 500;
   cursor: pointer;
   transition: 0.2s ease;
+  
 }
 
 .chat header button:hover {
   background: #dc2626;
+  box-shadow: 0 12px 28px rgba(245, 2, 2, 0.500);
 }
 
 .chat-header-left {
@@ -259,10 +261,12 @@ li small {
   font-weight: 500;
   cursor: pointer;
   transition: 0.2s ease;
+  
 }
 
 .chat-input button:hover {
   background: #4f46e5;
+  box-shadow: 0 12px 28px rgba(174, 250, 161, 0.163);
 }
 
 /* =========================
@@ -290,6 +294,11 @@ section:not(.chat) {
   min-height: 100vh;
   padding: 60px 20px;
   width: 100%;
+  background-image: url("https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 section:not(.chat) .title-login {
@@ -298,15 +307,18 @@ section:not(.chat) .title-login {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  color: #f9fafb;
+  color: #ffffff;
+  background-color: #0602166c;
+  padding: 8px 30px 8px 30px;
+  border-radius: 15px;
 }
 
 section:not(.chat) form {
   width: 100%;
   max-width: 420px;
   padding: 42px;
-  background: #111827;
-  border-radius: 24px;
+  background: #111827b7;
+  border-radius: 22px;
   box-shadow: 0 35px 60px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
@@ -320,7 +332,7 @@ section:not(.chat) form input {
   border-radius: 14px;
   border: 1px solid #374151;
   background: #1f2937;
-  color: #e5e7eb;
+  color: #ebe6e5;
   font-size: 14px;
   transition: all 0.2s ease;
 }
@@ -337,18 +349,18 @@ section:not(.chat) form button {
   padding: 14px;
   border-radius: 14px;
   border: none;
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  background: linear-gradient(135deg, #f92d2d, #ff2a2a);
   color: white;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
   transition: all 0.25s ease;
-  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.35);
+  box-shadow: 0 8px 20px rgba(241, 99, 99, 0.232);
 }
 
 section:not(.chat) form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 12px 28px rgba(245, 2, 2, 0.827);
 }
 
 section:not(.chat) form button:active {
@@ -365,7 +377,7 @@ section:not(.chat) form button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://images.pexels.com/photos/3183178/pexels-photo-3183178.jpeg");
+  background-image: url("https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -376,7 +388,7 @@ section:not(.chat) form button:active {
 .landing-overlay {
   width: 100%;
   height: 100%;
-  background: rgba(17, 24, 39, 0.10);
+  background: rgba(17, 24, 39, 0.05);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +398,7 @@ section:not(.chat) form button:active {
 .landing-card {
   width: 100%;
   max-width: 520px;
-  background: rgba(17, 24, 39, 0.95);
+  background: rgba(17, 24, 39, 0.70);
   padding: 48px 40px;
   border-radius: 24px;
   text-align: center;
@@ -426,23 +438,25 @@ section:not(.chat) form button:active {
 }
 
 .landing-buttons button:first-child {
-  background: #6366F1;
+  background: #47fb067f;
   color: white;
 }
 
 .landing-buttons button:first-child:hover {
-  background: #4f46e5;
+  background: #11fc05;
   transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(1, 251, 18, 0.616);
 }
 
 .landing-buttons button:last-child {
-  background: #374151;
+  background: #f32727a7;
   color: #f9fafb;
 }
 
 .landing-buttons button:last-child:hover {
-  background: #4b5563;
+  background: #ff0808fd;
   transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(245, 2, 2, 0.827);
 }
 
 /* =========================
