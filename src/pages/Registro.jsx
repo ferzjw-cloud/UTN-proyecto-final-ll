@@ -63,7 +63,7 @@ export const Registro = () => {
 
   return (
     <section>
-      <h2 className="title-login">Bienvenido registrate</h2>
+      <h2 className="title-login">Bienvenido, registrate</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
