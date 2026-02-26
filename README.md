@@ -34,7 +34,7 @@ Permite registrarse, iniciar sesión y enviar mensajes a diferentes contactos.
 
 2. Clonar el repositorio:
    ```bash
-    git clone https://github.com/ferzjw-cloud/UTN---999200928-Trabajo-final.git
+    https://github.com/ferzjw-cloud/UTN-proyecto-final-ll.git
 
 
 # React + Vite
