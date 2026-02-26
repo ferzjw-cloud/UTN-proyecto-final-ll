@@ -30,7 +30,7 @@ body {
 ========================= */
 
 aside {
-  width: 280px;
+  width: 320px;
   background: #111827;
   padding: 24px;
   border-right: 1px solid #374151;
@@ -40,16 +40,17 @@ aside {
 }
 
 aside h1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #f9fafb;
+  text-align: center;
 }
 
 .chat2-highlight {
   color: #2563eb;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 50px;
   font-style: italic;
 
 }
@@ -94,15 +95,15 @@ li:hover {
 }
 
 li img {
-  width: 44px;
-  height: 44px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 
 li small {
   display: block;
   color: #9ca3af;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .not-found-text {
@@ -126,8 +127,8 @@ li small {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #111827;
-  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  background-color: #1f2937;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
   background-repeat: repeat;
   background-size: auto;
 }
@@ -316,8 +317,8 @@ section:not(.chat) .title-login {
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #ffffff;
-  background-color: #0602166c;
-  padding: 8px 30px 8px 30px;
+  background-color: #060216c0;
+  padding: 8px 50px 8px 50px;
   border-radius: 15px;
 }
 
