@@ -615,3 +615,20 @@ section:not(.chat) form button:active {
   transform: translateY(-3px);
   box-shadow: 0 12px 28px rgba(2, 144, 245, 0.700);
 }
+
+/* =========================
+   ICONO BOTÓN ENVIAR
+========================= */
+
+.chat-input button::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M2 21l21-9L2 3v7l15 2-15 2z'/></svg>");
+}
+
